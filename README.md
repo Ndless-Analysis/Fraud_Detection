@@ -16,7 +16,7 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 ## ○ 프로세스
 
-![contents](C:/repository/image/슬라이드2.JPG)
+![image](./image/슬라이드2.JPG)
 
 ***
 
@@ -92,17 +92,17 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 ## 2-1 데이터 탐색
 
-![image](C:/repository/image/슬라이드9.JPG)
+![image](./image/슬라이드9.JPG)
 
-![image](C:/repository/image/슬라이드10.JPG)
+![image](./image/슬라이드10.JPG)
 
-![image](C:/repository/image/슬라이드11.JPG)
+![image](./image/슬라이드11.JPG)
 
-![image](C:/repository/image/슬라이드12.JPG)
+![image](./image/슬라이드12.JPG)
 
-![image](C:/repository/image/슬라이드13.JPG)
+![image](./image/슬라이드13.JPG)
 
-![image](C:/repository/image/슬라이드14.JPG)
+![image](./image/슬라이드14.JPG)
 
 ***
 
@@ -116,11 +116,11 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 
 
-![image](C:/repository/image/슬라이드15.JPG)
+![image](./image/슬라이드15.JPG)
 
-![image](C:/repository/image/슬라이드16.JPG)
+![image](./image/슬라이드16.JPG)
 
-![image](C:/repository/image/슬라이드17.JPG)
+![image](./image/슬라이드17.JPG)
 
 ***
 
@@ -128,7 +128,7 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 모델을 생성하기 전에 속성,변수(Feature)들을 잘 선정하여야 합니다. 하지만 데이터 셋의 특성상 이미 모든 Feature들이 PCA를 통해 추출된 변수들이므로 이 단계는 생략합니다. PCA를 마친 변수들은 이미 원본데이터의 특징들을 잘 담아내고있습니다. 다만 그 변수들의 중요도를 단순 확인하였습니다.
 
-![image](C:/repository/image/슬라이드18.JPG)
+![image](./image/슬라이드18.JPG)
 
 ***
 
@@ -163,9 +163,9 @@ https://imbalanced-learn.readthedocs.io/en/stable/user_guide.html
 방법 2를 선택하였습니다. 근거는 다음과 같습니다.
 ```
 
-![image](C:/repository/image/슬라이드22.JPG)
+![image](./image/슬라이드22.JPG)
 
-![image](C:/repository/image/슬라이드23.JPG)
+![image](./image/슬라이드23.JPG)
 
 ***
 
@@ -200,13 +200,13 @@ https://imbalanced-learn.readthedocs.io/en/stable/user_guide.html
 
 직면한 문제는 이상신용거래 탐지입니다. 이 상황을 해결하기 위한 주요 Metric은 Recall입니다. 자세한 사항은 다음과 같습니다. 
 
-![image](C:/repository/image/슬라이드25.JPG)
+![image](./image/슬라이드25.JPG)
 
-![image](C:/repository/image/슬라이드26.JPG)
+![image](./image/슬라이드26.JPG)
 
-![image](C:/repository/image/슬라이드27.JPG)
+![image](./image/슬라이드27.JPG)
 
-![image](C:/repository/image/슬라이드28.JPG)
+![image](./image/슬라이드28.JPG)
 
 ***
 
@@ -226,15 +226,15 @@ https://imbalanced-learn.readthedocs.io/en/stable/user_guide.html
 
 ### (1) RandomForest
 
-![image](C:/repository/image/슬라이드33.JPG)
+![image](./image/슬라이드33.JPG)
 
-![image](C:/repository/image/슬라이드35.JPG)
+![image](./image/슬라이드35.JPG)
 
 ***
 
 ### (2) XGBoost 
 
-![image](C:/repository/image/슬라이드37.JPG)
+![image](./image/슬라이드37.JPG)
 
 ```
 저희가 선정한 주요 Metric은 Recall입니다. 
@@ -252,23 +252,23 @@ Precision - Recall간의 관계 또한 반드시 확인하여 모델 성능을 �
 
 
 
-![image](C:/repository/image/슬라이드38.JPG)
+![image](./image/슬라이드38.JPG)
 
 ### (3) LightGBM
 
-![image](C:/repository/image/슬라이드30.JPG)
+![image](./image/슬라이드30.JPG)
 
-![image](C:/repository/image/슬라이드32.JPG)
+![image](./image/슬라이드32.JPG)
 
 ### (4) DNN
 
-![image](C:/repository/image/슬라이드40.JPG)
+![image](./image/슬라이드40.JPG)
 
 ***
 
 ## 3-3 최종모델
 
-![image](C:/repository/image/슬라이드41.JPG)
+![image](./image/슬라이드41.JPG)
 
 최종 모델 알고리즘은 XGBoost입니다. Recall 값이 높으면서도 Precision 값도  높았습니다.  
 
