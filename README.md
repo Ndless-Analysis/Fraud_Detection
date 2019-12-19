@@ -52,7 +52,7 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 #### (3) 국내 금융권 FDS 구축 현황
 
-!![image](./image/FDS_Market.JPG)
+![image](./image/FDS_Market.JPG)
 
 ## 1-3 분석도구
 
